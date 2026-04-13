@@ -13,7 +13,7 @@ namespace ConsoleApp2026_Uno
             }
             else if (b > a)
             {
-                return $"{b} es mayor que {a}";
+                return $"{b} es mayor o igual que {a}";
             }
             else
             {
