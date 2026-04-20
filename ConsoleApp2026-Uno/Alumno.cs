@@ -8,7 +8,8 @@ namespace ConsoleApp2026_Uno
     {
         public required string Email{ get; set; }
         public int Legajo { get; set; }
-        public string? Materia { get; set; } 
+        public string? Materia { get; set; }
+        public string email { get; set; }
 
 
         public string Datos()
