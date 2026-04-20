@@ -20,5 +20,11 @@ namespace ConsoleApp2026_Uno
                 return $"Ambos números son iguales: {a}";
             }
         }
+
+        // Imprime el texto pasado por parámetro en la consola
+        public static void Imprimir(string texto)
+        {
+            Console.WriteLine(texto);
+        }
     }
 }
